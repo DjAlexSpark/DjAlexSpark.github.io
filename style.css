@@ -1,152 +1,139 @@
+
+@font-face{
+font-family:"Gilroy";
+src: url("Gilroy-Bold.ttf") format("ttf");
+font-weight:bold;
+font-style:normal;
+font-display:swap;
+}
+@font-face{
+font-family:"Gilroy";
+src: url("Gilroy-Medium.ttf") format("ttf");
+font-weight:normal;
+font-style:normal;
+font-display:swap;
+}
 body{
-	text-align: center;
-	font-family:Gilroy, Arial, sans-serif;
-	font-weight:normal;
-	background-color: #E7E7E7;
+text-align: center;
+font-family:Gilroy, Arial, sans-serif;
+font-weight:normal;
+}
+div{
+padding:25px;
+//background-color:#dddddd;
 }
 h1{
-	text-align: center;
-	padding-top: 15px;
+//font-family: 'Gilroy-Medium';
+font-size: 18px;
+line-height: 22px;
+color: #070707;
 }
 
-h1#service{
-	padding-right: 600px;
+ul {
+font-family:Gilroy, Arial, sans-serif;
+font-weight:bold;
+margin: 0px; /* Обнуляем значение отступов */
+padding: 0px; /* Значение полей */
+list-style-type: block;
 }
-h1#works{
-	padding-right: 400px;
+ul.head{
+padding-top:10px;
+padding-bottom:10px;
 }
-h1#partners{
-	padding-right: 480px;
+ul.head li {
+display: inline-block;
+width:18%;
 }
-h1#feedback{
-	padding-right: 600px;
+ul.head li a{
+  display: block;
+  padding: 3px 0;
+color: #aaa;
+  text-align: center;
+  text-decoration: none;
 }
-#arguments{
-	padding-right: 200px;
-	/*background: black;*/
-}
-#getscore{
-	margin-top:250px;
-	vertical-align: 50%;
-	background: #FFE360;
-	color: black;
-	border-radius:20px;
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	border-width: 0px;
-}
-div.header{
-	background: #1B8680;
-	background-image: url(img/headerimg_compressed.jpg);
-	width: 100%;
-	height: 400px;
-	background-position: center;
-	background-attachment: scroll; 
-	background-repeat: no-repeat;
-}
-div.second{
-	background: white;
-	background-image: url(img/img2_compressed.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 400px;
-	width: 100%;
-	background-attachment: scroll ;
-}
-#getscore2{
-/*margin-top:250px;*/
-/*vertical-align: 50%;*/
-background: #FFE360;
+ul.head li a#home{
 color: black;
+}
+ul.head li a:hover{
+ background: #aaa;
+}
+ul.progs li {
+display: inline-block;/* Отображать как строчный элемент */
+width:18%;
+}
+ul.Main{
+display: table; 
+  width: 100%;
+  padding-top:10px;
+padding-bottom:10px;
+}
+ul.Main li {
+display: table-cell;/* Отображать как строчный элемент */
+width:33%;
+}
+ul.Main li div{
+  display: block;
+  padding: 3px 0;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+}
+/*ul.Main li a:hover{
+background: #aaa;
+}  не имеет смысла*/
+ul.Main li div#name{
+font-size:32px;
+font-weight:bold;
+text-align:left;
+padding-left:25%;
+}
+ul.Main li div#lang{
+font-size:16px;
+font-weight:normal;
+text-align:center;
+}
+#WhiteBox{
+padding:80px;
+}
+ul.Main li div#lang{
+font-size:16px;
+font-weight:normal;
+text-align:center;
+}
+img.progs{
+allign:top;
+ width: 75px; /* Ширина области */
+    height:75px; /* Высота области */
+}
+.name_projects{
+padding-bottom:50px;
+}
+#contacts{
+font-size:28px;
+}
+#send_message{
+background: black;
+color: #ffffff;
 border-radius:20px;
 padding-left: 25px;
 padding-right: 25px;
 padding-top: 10px;
 padding-bottom: 10px;
-border-width: 0px;
 }
-
-li{
-	display: inline-table;
-	width: 170px;
-	margin-top:50px ;
-	margin-left: 15px;
-	margin-right: 45px;
+ul.messages li {
+padding: 60px  0px;
+display: inline-block;/* Отображать как строчный элемент */
+width:20%;
 }
-
-div.third{
-	background: #ABDBC5;
+ul.messages li a {
+display: block;
+  padding: 3px 0;
+color: #aaa;
+  text-align: center;
+  text-decoration: none;
 }
-div .pulish{
-	margin: 0 auto;
-}
-.publish li{
-	display: block;
-	width: 80%;
-	matgin: 0 auto;
-}
-table{
-	margin: 10px auto;
-}
-p#steps{
-	text-align: left;
-	margin-left: 50px;
-	text-align: left;
-	font-size: 40px;
-	font-weight: bolder;  
-}
-ul.steps li{
-	background: white;
-	display: inline-block ;
-	width: 10%;
-}
-div#steps table tr td{
-	padding: 0px 30px;
-}
-ul.publish li{
-	display: inline-block;
-}
-p.table{
-	text-align: left;
-	padding: 0px 80px;
-}
-div#peoples{
-	background-image: url(img/people_with_books.jpg);
-	width: 100%;
-	height: 600px;
-	margin: 0px auto;
-	background-position: center;
-	background-attachment: scroll; 
-	background-repeat: no-repeat;
-}
-div#peoples table{
-	margin: 0px auto;
-width: 730px;
-text-align: left;
-}
-footer{
-	background: #0D6F67;
-	color: white;
-	text-align: left;
-}
-footer table{
-	border-spacing: 100px 11px;
-}
-div#feedback{
-	background-image: url(img/books_on_wall.jpg);
-	width: 100%;
-	height: 500px;
-}
-div#last{
-	background: white;
-	padding-top: 40px;
-	margin: 0px auto;
-	width: 600px;
-	height: 300px;
-}
-#imgcircle{
-	padding-left:35px;
-	padding-top:20px ;
+img.logo{
+allign:top;
+ width: 30px; /* Ширина области */
+    height:30px; /* Высота области */
 }
